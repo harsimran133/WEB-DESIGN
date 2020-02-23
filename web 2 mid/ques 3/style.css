@@ -1,0 +1,18 @@
+body{margin: 0;
+    padding: 0;}
+.outerbox{width: 960px;
+    height: 250px;
+    background: yellow;}
+.box_1, .box_2, .box_3 { width: 33.33%;
+    height: 230px;
+    margin: 10px 0 10px 0; 
+    float: left;}
+.box_1{background-color: blue;}
+.box_2{background-color: green;}
+.box_3{background-color: brown;}
+@media only screen and (max-width: 960px) {
+    .box_1, .box_2, .box_3 
+    {width: 100%;
+      float: left;}
+    .outerbox{height: 100vh;}
+  }

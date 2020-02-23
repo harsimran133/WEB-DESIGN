@@ -1,0 +1,13 @@
+*{box-sizing: border-box;}
+.container {width: 960px;
+	height: 250px;
+	box-sizing: 1px}
+.box1 {width: 30%;
+	float: left;
+	background-color: blue}
+.box2 {width: 30%;
+	float: left;
+	background-color: green}
+.box3 {width: 30%;
+	float: left;
+	background-color: yellow}
